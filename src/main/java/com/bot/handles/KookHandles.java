@@ -1,4 +1,4 @@
-package com.bot.config;
+package com.bot.handles;
 
 import love.forte.simbot.component.kook.event.KookChannelMessageEvent;
 import love.forte.simbot.event.ChatChannelMessageEvent;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.util.concurrent.CompletableFuture;
 
 @Component
-public class MyHandles {
+public class KookHandles {
     /**
      * 此处是一个标准库中通用的类型：子频道消息事件
      * 在KOOK组件中，它的真实实现类型会是 KookChannelMessageEvent
